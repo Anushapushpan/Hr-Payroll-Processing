@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PR_EMPLOYEE" msprop:Generator_TableClassName="PR_EMPLOYEEDataTable" msprop:Generator_TableVarName="tablePR_EMPLOYEE" msprop:Generator_RowChangedName="PR_EMPLOYEERowChanged" msprop:Generator_TablePropName="PR_EMPLOYEE" msprop:Generator_RowDeletingName="PR_EMPLOYEERowDeleting" msprop:Generator_RowChangingName="PR_EMPLOYEERowChanging" msprop:Generator_RowEvHandlerName="PR_EMPLOYEERowChangeEventHandler" msprop:Generator_RowDeletedName="PR_EMPLOYEERowDeleted" msprop:Generator_RowClassName="PR_EMPLOYEERow" msprop:Generator_UserTableName="PR_EMPLOYEE" msprop:Generator_RowEvArgName="PR_EMPLOYEERowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EMP_NO" msprop:Generator_ColumnVarNameInTable="columnEMP_NO" msprop:Generator_ColumnPropNameInRow="EMP_NO" msprop:Generator_ColumnPropNameInTable="EMP_NOColumn" msprop:Generator_UserColumnName="EMP_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_NAME" msprop:Generator_ColumnVarNameInTable="columnEMP_NAME" msprop:Generator_ColumnPropNameInRow="EMP_NAME" msprop:Generator_ColumnPropNameInTable="EMP_NAMEColumn" msprop:Generator_UserColumnName="EMP_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_DEPTNO" msprop:Generator_ColumnVarNameInTable="columnEMP_DEPTNO" msprop:Generator_ColumnPropNameInRow="EMP_DEPTNO" msprop:Generator_ColumnPropNameInTable="EMP_DEPTNOColumn" msprop:Generator_UserColumnName="EMP_DEPTNO" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_JOIN_DATE" msprop:Generator_ColumnVarNameInTable="columnEMP_JOIN_DATE" msprop:Generator_ColumnPropNameInRow="EMP_JOIN_DATE" msprop:Generator_ColumnPropNameInTable="EMP_JOIN_DATEColumn" msprop:Generator_UserColumnName="EMP_JOIN_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PR_EMPLOYEE_PAYROLL" msprop:Generator_TableClassName="PR_EMPLOYEE_PAYROLLDataTable" msprop:Generator_TableVarName="tablePR_EMPLOYEE_PAYROLL" msprop:Generator_RowChangedName="PR_EMPLOYEE_PAYROLLRowChanged" msprop:Generator_TablePropName="PR_EMPLOYEE_PAYROLL" msprop:Generator_RowDeletingName="PR_EMPLOYEE_PAYROLLRowDeleting" msprop:Generator_RowChangingName="PR_EMPLOYEE_PAYROLLRowChanging" msprop:Generator_RowEvHandlerName="PR_EMPLOYEE_PAYROLLRowChangeEventHandler" msprop:Generator_RowDeletedName="PR_EMPLOYEE_PAYROLLRowDeleted" msprop:Generator_RowClassName="PR_EMPLOYEE_PAYROLLRow" msprop:Generator_UserTableName="PR_EMPLOYEE_PAYROLL" msprop:Generator_RowEvArgName="PR_EMPLOYEE_PAYROLLRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PR_YYYMM" msprop:Generator_ColumnVarNameInTable="columnPR_YYYMM" msprop:Generator_ColumnPropNameInRow="PR_YYYMM" msprop:Generator_ColumnPropNameInTable="PR_YYYMMColumn" msprop:Generator_UserColumnName="PR_YYYMM" type="xs:string" minOccurs="0" />
+              <xs:element name="PR_BASIC" msprop:Generator_ColumnVarNameInTable="columnPR_BASIC" msprop:Generator_ColumnPropNameInRow="PR_BASIC" msprop:Generator_ColumnPropNameInTable="PR_BASICColumn" msprop:Generator_UserColumnName="PR_BASIC" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PR_HRA" msprop:Generator_ColumnVarNameInTable="columnPR_HRA" msprop:Generator_ColumnPropNameInRow="PR_HRA" msprop:Generator_ColumnPropNameInTable="PR_HRAColumn" msprop:Generator_UserColumnName="PR_HRA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PR_CONV" msprop:Generator_ColumnVarNameInTable="columnPR_CONV" msprop:Generator_ColumnPropNameInRow="PR_CONV" msprop:Generator_ColumnPropNameInTable="PR_CONVColumn" msprop:Generator_UserColumnName="PR_CONV" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PR_DA" msprop:Generator_ColumnVarNameInTable="columnPR_DA" msprop:Generator_ColumnPropNameInRow="PR_DA" msprop:Generator_ColumnPropNameInTable="PR_DAColumn" msprop:Generator_UserColumnName="PR_DA" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PR_TDS" msprop:Generator_ColumnVarNameInTable="columnPR_TDS" msprop:Generator_ColumnPropNameInRow="PR_TDS" msprop:Generator_ColumnPropNameInTable="PR_TDSColumn" msprop:Generator_UserColumnName="PR_TDS" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PR_ESI" msprop:Generator_ColumnVarNameInTable="columnPR_ESI" msprop:Generator_ColumnPropNameInRow="PR_ESI" msprop:Generator_ColumnPropNameInTable="PR_ESIColumn" msprop:Generator_UserColumnName="PR_ESI" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PR_NET_PAYABLE" msprop:Generator_ColumnVarNameInTable="columnPR_NET_PAYABLE" msprop:Generator_ColumnPropNameInRow="PR_NET_PAYABLE" msprop:Generator_ColumnPropNameInTable="PR_NET_PAYABLEColumn" msprop:Generator_UserColumnName="PR_NET_PAYABLE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PR_MONTH_NAME" msprop:Generator_ColumnVarNameInTable="columnPR_MONTH_NAME" msprop:Generator_ColumnPropNameInRow="PR_MONTH_NAME" msprop:Generator_ColumnPropNameInTable="PR_MONTH_NAMEColumn" msprop:Generator_UserColumnName="PR_MONTH_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="PR_TOT_DEDU" msprop:Generator_ColumnVarNameInTable="columnPR_TOT_DEDU" msprop:Generator_ColumnPropNameInRow="PR_TOT_DEDU" msprop:Generator_ColumnPropNameInTable="PR_TOT_DEDUColumn" msprop:Generator_UserColumnName="PR_TOT_DEDU" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PR_TOT_EARNINGS" msprop:Generator_ColumnVarNameInTable="columnPR_TOT_EARNINGS" msprop:Generator_ColumnPropNameInRow="PR_TOT_EARNINGS" msprop:Generator_ColumnPropNameInTable="PR_TOT_EARNINGSColumn" msprop:Generator_UserColumnName="PR_TOT_EARNINGS" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,77 @@
+﻿/*body {
+    /*background: linear-gradient(to right, #ffffff 0%, #99ccff 100%);*/
+}*/
+body {
+    font-family: sans-serif;
+    overflow-x:auto;
+}
+nav {  
+    height: 70px;
+   max-width:100%;
+   
+    background: rgb(2,0,36);
+    background: linear-gradient(76deg, rgba(34,56,50,1) 0%, rgba(14,166,187,1) 30%, rgba(9,206,233,1) 100%, rgba(14,168,188,1) 100%, rgba(2,228,235,1) 100%, rgba(20,166,152,1) 100%, rgba(252,252,252,1) 100%, rgba(218,0,0,1) 100%, rgba(249,6,6,1) 100%);
+    //background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    //background: linear-gradient(83deg, rgba(2,0,36,1) 2%, rgba(181,44,77,1) 63%, rgba(213,53,53,1) 100%, rgba(0,212,255,1) 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar-brand {
+    
+    margin-left:20px;
+}
+
+.container-fluid {
+    position: absolute;
+   
+    height: 50px;
+    top: 10px;
+}
+
+.navbar-nav {   
+    margin-left:auto !important;
+    
+}
+/* General navigation bar style */
+.navbar {
+    background-color:darkblue !important;
+    color: darkblue;
+}
+
+/* Navbar items style */
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+/* Dropdown menu style */
+.dropdown-menu {
+    background-color: #343a40;
+    display: none; /* Initially hide dropdowns */
+}
+
+/* Dropdown item style */
+.dropdown-item {
+    color: white;
+}
+nav-link {
+    color: white;
+}
+/* Navbar items hover effect */
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display:block; /* Display dropdown on parent hover */  
+}
+.dropdown-menu-end {
+    left:auto;
+    right:0;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    padding-bottom: 0rem;
+    background-color: #0174BE;
+    color: #0174BE;
+}
+.mainBox {
+    min-height: 84vh !important;
+}
+

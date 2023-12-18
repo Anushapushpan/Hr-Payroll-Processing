@@ -1,0 +1,181 @@
+﻿body {
+    font-family:sans-serif;
+}
+.main {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right:50px;
+}
+.submitButtons {    
+    top:360px;
+    
+}
+.btn {
+    width: 100px;
+    height: 35px;
+    margin-top: 40px;   
+    text-align: center;
+    justify-content:center;
+    border-radius:2px;
+    margin-left:10px;
+
+}
+.form-control {
+    width: 400px;
+    color: blue;
+    height: 33px;
+    border-color: cornflowerblue;
+    left: 100px;
+    border-radius: 5px;
+    
+}
+.allowance {
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.allowance .form-control {
+        width: 140px;
+        color: blue;
+        height: 33px;
+        border-color: cornflowerblue;
+        left: 100px;
+        margin-left:5px;
+        border-radius: 2px;
+}
+.allowanceGrid {  
+    margin-right: 50px;
+}
+
+.allowance .btn {
+    margin-top:0px;
+    width: 60px;
+    height: 33px;
+}
+#gvAllowance {
+    width: 100%;
+}
+
+.employeeList {
+    margin-right: 50px;
+    margin-left:50px;
+    margin-top:20px;
+}
+.addButton button{
+    width: 150px;
+    margin-left: 1150px;
+    margin-right:30px;
+}
+
+h2 {
+    margin-top:20px;
+}
+.attendence {
+    margin-top: 10px;
+    
+    display:inline-flex;
+}
+.attendence .form-control{
+    width:200px;
+}
+.btnProceed .btn {
+    
+    width:150px;
+}
+.btnProccess .btn {
+    margin-top: 50px;
+    width: 170px;
+    margin-left: 680px;
+}
+.CheckAttendence {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.CheckAttendence .btn {
+    margin-left:500px;
+}
+
+.backButton{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom:30px;
+}
+.backButton btn{
+    width:50px;
+}
+.report .btn {
+    position:absolute;
+    top:50px;
+    right:10px;
+}
+.btnBack .btn {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    right: 10px;
+}
+.reportdropdown {
+   
+    margin-top: 10px;
+    
+    display: inline-flex;
+}
+.reportdropdown .form-control {
+    width: 200px;
+    }
+.main button {
+    margin-left:1090px;
+    width:150px;
+}
+.btnBack #btnBack {
+    position: absolute;
+    width: 30px;
+    left: 30px;
+}
+.btnreverse .btn {
+    width: 100px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    top:90px;
+    }
+.searchArea {
+    display:flex;
+    align-items:center;
+    margin-left:0px;  
+}
+.searchArea .btn {
+    border-radius:2px;
+    margin-top:0px;
+}
+.GridPager a, .GridPager span {
+    display: block;
+    height: 25px;
+    width: 37px;
+    font-weight:bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.GridPager a {
+    background-color: #f5f5f5;
+    color: #969696;
+    border: 1px solid #969696;
+}
+
+.GridPager span {
+    background-color: #A1DCF2;
+    color: #000;
+    border: 1px solid #3AC0F2;
+}
+
+.sort .form-control {
+    width: 200px;
+}
+.sort {
+    display:inline-flex;
+    margin-top:50px;
+    
+}

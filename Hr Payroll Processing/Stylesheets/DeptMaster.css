@@ -1,0 +1,21 @@
+﻿.row {
+    margin-left:50px;
+    margin-top:50px;
+}
+.btn {
+    width:100px;
+    height:39px;
+    margin-top:40px;
+    margin-left:10px;
+}
+.form-control {
+    width: 400px;
+    color: blue;
+    height: 40px;
+    border-color: cornflowerblue;
+    left: 100px;
+    border-radius: 5px;
+}
+body {
+    font-family: sans-serif;
+}

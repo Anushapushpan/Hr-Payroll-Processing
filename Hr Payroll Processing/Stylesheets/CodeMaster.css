@@ -1,0 +1,24 @@
+﻿.form-control {
+    width: 400px;
+    color: blue;
+    height: 30px;
+    border-color: cornflowerblue;
+    left: 100px;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    border-radius: 0px;
+    margin-right:10px;
+}
+.button-container {
+    display: flex;
+    margin-left: 550px;
+}
+.table {
+    margin-top: 50px;
+}
+body {
+    font-family: sans-serif;
+}
